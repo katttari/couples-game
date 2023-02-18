@@ -9,7 +9,7 @@
 body {
   width: 100%;
   height: 100%;
-  background-image: url('img/MerDeNomss-artist-art-Fantasy-6360997.jpeg');
+  background-image: url('img/background-img.jpeg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -30,7 +30,7 @@ body {
 }
 
 .body-style__game-over {
-  background-image: url('img/MerDeNomss-artist-art-Fantasy-6360997.jpeg');
+  background-image: url('img/background-img.jpeg');
   backdrop-filter: blur(6px);
   transition: all .17s ease-in-out;
 }
@@ -115,7 +115,7 @@ body {
   width: 100%;
   height: 100%;
   transition: all .15s ease-in-out;
-  background-image: url("/img/34.jpg");
+  background-image: url("/img/card-img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
