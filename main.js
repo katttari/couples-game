@@ -217,10 +217,9 @@
             console.log(screenEnd);
 
             // const myNode = document.getElementById('couples-game');
-            const myNode1 = document.getElementById('list-cards');
-            console.log(myNode1);
+            // const myNode1 = document.getElementById('list-cards');
+            // console.log(myNode1);
             const title = document.getElementById('title');
-            console.log(myNode2);
 
         }
         chekingMatchingCards();
