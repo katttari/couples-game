@@ -387,6 +387,10 @@ body {
     background-image: url('img/background-img-mini.jpeg');
   }
 
+  .body-style__game-over {
+    backdrop-filter: blur(6px);
+  }
+
   .title {
     font-size: 4.0em;
   }
