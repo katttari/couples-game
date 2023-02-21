@@ -82,7 +82,7 @@ body {
   margin-bottom: 10px;
   width: 110px;
   height: 110px;
-  line-height: 1em;
+  /* line-height: 1em; */
   background-color: rgb(29, 3, 39);
   border: 1.5px solid  rgb(43, 5, 56);
   border-radius: 0px; 
@@ -368,7 +368,7 @@ body {
   .list-cards {
     max-width: 366px;
     max-height: 366px;
-    font-size: 3.4em;
+    font-size: 3.3em;
   }
 
   .list-cards__item:not(:nth-child(4)) {
@@ -385,7 +385,6 @@ body {
 @media (max-width: 560px) { 
   body {
     background-image: url('img/background-img-mini.jpeg');
-    /* backdrop-filter: blur(1px); */
   }
 
   .title {
@@ -397,7 +396,7 @@ body {
     padding: 8px;
     max-width: 340px;
     max-height: 340px;
-    font-size: 3.3em;
+    font-size: 3.2em;
   }
 
   .list-cards__item:not(:nth-child(4)) {
