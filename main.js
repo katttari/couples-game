@@ -214,11 +214,6 @@
             // элементы для удаления в конце игры
             let body = document.querySelector('body');
             let screenEnd = document.getElementById('end-screen');
-            console.log(screenEnd);
-
-            // const myNode = document.getElementById('couples-game');
-            // const myNode1 = document.getElementById('list-cards');
-            // console.log(myNode1);
             const title = document.getElementById('title');
 
         }
