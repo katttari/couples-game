@@ -32,6 +32,7 @@ body {
 .body-style__game-over {
   background-image: url('img/background-img.jpeg');
   backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
   transition: all .17s ease-in-out;
 }
 
