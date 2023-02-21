@@ -31,7 +31,7 @@ body {
 
 .body-style__game-over {
   background-image: url('img/background-img.jpeg');
-  backdrop-filter: blur(6px);
+  backdrop-filter: blur(7px);
   transition: all .17s ease-in-out;
 }
 
@@ -385,10 +385,6 @@ body {
 @media (max-width: 560px) { 
   body {
     background-image: url('img/background-img-mini.jpeg');
-  }
-
-  .body-style__game-over {
-    backdrop-filter: blur(6px);
   }
 
   .title {
