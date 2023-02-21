@@ -82,6 +82,7 @@ body {
   margin-bottom: 10px;
   width: 110px;
   height: 110px;
+  line-height: 1em;
   background-color: rgb(29, 3, 39);
   border: 1.5px solid  rgb(43, 5, 56);
   border-radius: 0px; 
@@ -312,14 +313,9 @@ body {
   }
 }
 
-
-@media (max-width: 768px) {
-  body {
-    background-image: url('img/background-img-mini.jpeg');
-    backdrop-filter: blur(1px);
-  }
-
+@media (min-width: 895px) and (max-width: 915px) {
   .title {
+    display: none;
     font-size: 4em;
   }
 
@@ -340,7 +336,58 @@ body {
   }
 }
 
+@media (min-width: 844px) and (max-width: 852px) {
+  .title {
+    display: none;
+    font-size: 4em;
+  }
+
+  .list-cards {
+    max-width: 372px;
+    max-height: 372px;
+    font-size: 3.5em;
+  }
+
+  .list-cards__item:not(:nth-child(4)) {
+    margin-right: 8px;
+  }
+
+  .btn-cards {
+    margin-bottom: 8px;
+    width: 80px;
+    height: 80px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .title {
+    font-size: 4em;
+  }
+
+  .list-cards {
+    max-width: 366px;
+    max-height: 366px;
+    font-size: 3.4em;
+  }
+
+  .list-cards__item:not(:nth-child(4)) {
+    margin-right: 8px;
+  }
+
+  .btn-cards {
+    margin-bottom: 8px;
+    width: 78px;
+    height: 78px;
+  }
+}
+
 @media (max-width: 560px) { 
+  body {
+    background-image: url('img/background-img-mini.jpeg');
+    /* backdrop-filter: blur(1px); */
+  }
+
   .title {
     font-size: 4.0em;
   }
